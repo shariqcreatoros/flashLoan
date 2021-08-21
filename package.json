@@ -1,0 +1,40 @@
+{
+  "name": "flashloans",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.4",
+    "hardhat": "^2.6.0",
+    "request": "^2.81.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.0",
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "axios": "^0.19.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "infura-web3-provider": "0.0.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "numeral": "^2.0.6",
+    "web3": "^1.5.0"
+  }
+}
